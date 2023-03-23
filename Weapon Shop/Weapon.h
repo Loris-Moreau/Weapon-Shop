@@ -9,12 +9,12 @@ public:
 	Weapon(string wName, string wDescription, string wType, int wWeight, int wDamages, int wPrice, float wDurability);
 
 private:
-	string Name;
-	string Description;
+	string weaponName;
+	string weaponDescription;
 	string WeaponType;
-	float Weight;
-	int Damages;
-	float Price;
-	int Durability;
+	float weaponWeight;
+	int weaponDamages;
+	float weaponPrice;
+	int weaponDurability;
 };
 
