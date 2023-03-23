@@ -6,12 +6,12 @@ using std::string;
 class Weapon
 {
 public:
-	Weapon(string wName, string wDescription, string wType, int wWeight, int wDamages, int wPrice, float wDurability);
+	Weapon(const char wName, const char wDescription, const char  wType, int wWeight, int wDamages, int wPrice, float wDurability);
 
 private:
-	string weaponName;
-	string weaponDescription;
-	string WeaponType;
+	const char weaponName;
+	const char weaponDescription;
+	const char WeaponType;
 	float weaponWeight;
 	int weaponDamages;
 	float weaponPrice;
