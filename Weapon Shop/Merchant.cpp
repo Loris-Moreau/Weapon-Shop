@@ -6,4 +6,4 @@ Merchant::Merchant(string nameP, string shopNameP, string descriptionP, string c
 
 }
 
-	
+Merchant::~Merchant(){}

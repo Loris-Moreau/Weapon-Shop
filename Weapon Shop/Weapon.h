@@ -6,15 +6,54 @@ using std::string;
 class Weapon
 {
 public:
-	Weapon(const char wName, const char wDescription, const char  wType, int wWeight, int wDamages, int wPrice, float wDurability);
+	Weapon(string wName, string wDescription, string wType, float wWeight, int wDamages, int wPrice, float wDurability);
+	~Weapon();
+
+	enum WeaponTypes
+	{
+		Basic,
+		Dagger,
+		Sword,
+		GreatSword,
+		Staff,
+		MorningStar,
+		Rapier
+	};
+
+	string weaponToStr(WeaponTypes weaponTypes)
+	{
+		switch (weaponTypes)
+		{
+		case WeaponTypes::Basic:
+			return "Rusty Sword";
+		case WeaponTypes::Dagger:
+			return "Dagger";
+		case WeaponTypes::Sword:
+			return "Sword";
+		case WeaponTypes::GreatSword:
+			return "GreatSword";
+		case WeaponTypes::Staff:
+			return "Staff";
+		case WeaponTypes::MorningStar:
+			return "MorningStar";
+		case WeaponTypes::Rapier:
+			return "Rapier";
+		default:
+			return"Rusty Sword";
+		}
+	}
 
 private:
-	const char weaponName;
-	const char weaponDescription;
-	const char WeaponType;
+	string weaponName;
+	string weaponDescription;
+	string WeaponType;
+
 	float weaponWeight;
+
 	int weaponDamages;
-	float weaponPrice;
-	int weaponDurability;
+
+	int weaponPrice;
+
+	float weaponDurability;
 };
 
