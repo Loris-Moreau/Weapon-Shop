@@ -1,0 +1,25 @@
+﻿  Character.cpp
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Character.h(39,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Character.h(58,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Merchant.cpp
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Character.h(39,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Character.h(58,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Merchant.h(34,16): error C2039: 'push_back': is not a member of 'Weapon'
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Weapon.h(18,7): message : see declaration of 'Weapon'
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Merchant.h(45,32): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Merchant.h(71,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Shop & Characters.cpp
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Character.h(39,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Character.h(58,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Merchant.h(34,16): error C2039: 'push_back': is not a member of 'Weapon'
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Weapon.h(18,7): message : see declaration of 'Weapon'
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Merchant.h(45,32): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Merchant.h(71,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Shop & Characters.cpp(19,22): error C2665: 'Merchant::Merchant': no overloaded function could convert all the argument types
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Merchant.h(14,5): message : could be 'Merchant::Merchant(const std::string &,const std::string &,const std::string &,const std::string &,int,const std::vector<Weapon,std::allocator<Weapon>> &)'
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Shop & Characters.cpp(19,22): message : 'Merchant::Merchant(const std::string &,const std::string &,const std::string &,const std::string &,int,const std::vector<Weapon,std::allocator<Weapon>> &)': cannot convert argument 6 from 'WeaponType' to 'const std::vector<Weapon,std::allocator<Weapon>> &'
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Shop & Characters.cpp(19,110): message : Reason: cannot convert from 'WeaponType' to 'const std::vector<Weapon,std::allocator<Weapon>>'
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Shop & Characters.cpp(19,110): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\morea\source\repos\Shop & Characters\Shop & Characters\Shop & Characters.cpp(19,22): message : while trying to match the argument list '(const char [4], const char [12], const char [32], const char [21], int, WeaponType)'
+  Weapon.cpp
+  Generating Code...
