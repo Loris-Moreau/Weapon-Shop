@@ -49,7 +49,7 @@ public:
         }
         else 
         {
-            cout << "Not enough money to buy weapon : " << weapon.GetName() << endl;
+            cout << "Not enough money to buy " << weapon.GetName() << endl;
         }
     }
 
